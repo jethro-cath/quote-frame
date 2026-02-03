@@ -140,7 +140,7 @@
       class="button"
       @click="emit('download')"
     >
-      Сохранить как картинку
+      Сохранить картинку
     </button>
   </div>
 </template>
