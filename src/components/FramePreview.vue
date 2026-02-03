@@ -82,6 +82,7 @@ defineExpose({ frameRef })
   justify-content: center;
 
   width: 100%;
+  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -89,7 +90,8 @@ defineExpose({ frameRef })
   position: relative;
   min-width: 500px;
   min-height: 300px;
-  padding: var(--current-font-size) calc(2 * var(--current-font-size));
+  padding: calc(1.5 * var(--current-font-size))
+    calc(2.5 * var(--current-font-size));
 
   display: flex;
   flex-direction: column;
