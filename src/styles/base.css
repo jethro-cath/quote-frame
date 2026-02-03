@@ -1,0 +1,32 @@
+:root {
+  --color-panel: #d3d9d8;
+  ---color-main: #748e54;
+  --color-secondary: #b0c398;
+  --space-outer: 20px;
+}
+
+body {
+  font-family:
+    'Inter',
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    sans-serif;
+}
+
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
